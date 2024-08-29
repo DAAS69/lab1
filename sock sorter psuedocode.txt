@@ -1,0 +1,10 @@
+start
+open daraz
+repeat
+	pick 1 sock
+	repeat
+		pick another_sock	
+	untill another_sock == sock
+	put both socks together in daraz 
+untill all_socks_sorted
+end
